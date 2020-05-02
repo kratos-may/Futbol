@@ -1,0 +1,30 @@
+descripcion general:
+football-app es una aplicacion web creada en react, la cual ellige una liga de futbol a nivek mundial y lo desglosa en varios componentes funcionales de react tales como:
+1) Componente Home. donde se muestraa un logo animado y un boton que dice ir a, para ver todos los equipos de esa ligaa
+2) componente teams. muestra todos los equipos en card con infomracion detalada
+3) componente team.muestra la informacion detallada de un equipo con su lista de jugadores
+4) componente headerteam. muestra una cabecera con el logo e informacion adicional del equipo 
+5) componente Matches. muestra los ulimos juego del equipo seleccionado, lo muestra en una tabla
+
+
+.back
+para iniciar
+    nodemon start
+descripcion: se utilizo express, nodejs y axios para las peticiones desde la api externa(el back es un back espejo que apunta a una api en la pagina: https://www.football-data.org/) 
+debe generar su propia api key en la pagina antes mencionada y cambiarla en la carpeta back, en la parte de los controladores en cada peticion
+
+.front 
+
+para iniciar
+npm start
+
+descripcion: se utilizo bootstrap, materialUI, Redux, Hooks y react Router.
+la estructura de carpetas es
+.src
+    .componentes
+    .redux
+        .actions
+        .reducer
+        .store.js
+    .resource
+    .App.js

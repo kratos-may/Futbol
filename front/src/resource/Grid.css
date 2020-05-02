@@ -1,0 +1,29 @@
+body{
+    background: radial-gradient(#e5e5e5 grey black);
+}
+.card{
+    width: 25rem;
+   
+    padding: 1em;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0px 2px 4px 1px rgba(252, 255, 255, 0.918);
+    background-color: #FFF;
+    margin: 1em 0;
+    border-radius: 0.2em;
+    
+}
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253)!important;
+}
+.card-body{
+    padding: 3rem 0 !important;
+
+}
+.card-text{
+    font-size: 0.9rem;
+    padding: 0.4rem 1.9rem;
+}
+.container-fluid .row{
+    padding-top: 6rem;
+}
+
